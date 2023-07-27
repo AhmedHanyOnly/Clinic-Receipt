@@ -1,0 +1,23 @@
+body {
+  font-family: 'Cairo', sans-serif !important;
+  color: #453735;
+  font-size: 14px;
+  scroll-behavior: smooth;
+
+  background-color: #e9e6e2 !important;
+  // min-height: 200vh
+}
+// All Rest
+* {
+  @include all-reset;
+  list-style: none;
+}
+// a Reset
+a {
+  @include a-reset;
+}
+// reset btn
+button {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,139 @@
+.ayada {
+  position: relative;
+  overflow: hidden;
+}
+.ayada .pic-con {
+  position: absolute;
+  z-index: -1;
+  left: 38px;
+  top: 78px;
+}
+.ayada .pic-con2 {
+  position: absolute;
+  z-index: -1;
+  left: 281px;
+  top: 289px;
+}
+.ayada .pic-con3 {
+  position: absolute;
+  z-index: -1;
+  left: 578px;
+  top: 546px;
+}
+.ayada .pic-con4 {
+  position: absolute;
+  z-index: -1;
+  left: 1000px;
+  top: 800px;
+}
+@media (max-width: 991.98px) {
+  .ayada .pic-con {
+    left: -3px;
+    top: 69px;
+  }
+  .ayada .pic-con2 {
+    left: 251px;
+    top: 366px;
+  }
+  .ayada .pic-con3 {
+    left: 580px;
+    top: 646px;
+  }
+}
+@media (max-width: 767.98px) {
+  .ayada .pic-con {
+    left: -104px;
+    top: 66px;
+  }
+  .ayada .pic-con2 {
+    left: 51px;
+    top: 575px;
+  }
+  .ayada .pic-con3 {
+    left: 580px;
+    top: 646px;
+  }
+}
+.ayada .page {
+  z-index: 99;
+}
+.ayada .page header {
+  background-color: #c5b7ab;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+}
+.ayada .page .content .text {
+  text-align: center;
+}
+.ayada .page .content .text h3 {
+  padding: 5px 0 5px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.ayada .page .content .text p {
+  padding: 5px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+.ayada .page .content .table-container {
+  overflow: auto;
+}
+.ayada .page .content .table-container table {
+  margin: 100px auto 10px;
+  overflow-x: auto;
+  width: 100%;
+}
+.ayada .page .content .table-container table thead {
+  background-color: rgba(197, 183, 171, 0.5);
+}
+.ayada .page .content .table-container table thead tr th {
+  border: 3px solid #ddd;
+  padding: 10px 20px;
+  color: #fff;
+}
+.ayada .page .content .table-container table tbody {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.ayada .page .content .table-container table tbody tr td {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  font-weight: 400;
+}
+.ayada .page footer {
+  margin: 50px 0 0;
+  background-color: #c5b7ab;
+  width: 100%;
+  height: 100px;
+}
+
+body {
+  font-family: "Cairo", sans-serif !important;
+  color: #453735;
+  font-size: 14px;
+  scroll-behavior: smooth;
+  background-color: #e9e6e2 !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+button {
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=main.css.map */
